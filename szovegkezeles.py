@@ -149,3 +149,12 @@ def tizenketto():
     # 12. Írj programot ami beolvas egy nevet, és megadja a monogramját (a név két szóból álljon, egy szóközzel elválasztva)
     nev = beolvas().upper().split(" ")
     print("A beírt név monogramja: " + nev[0][0] + nev[1][0])
+
+def tizennegy():
+    # 14. Írjon programot, mely megszámolja, hogy az inputként érkező mondatban hány darab ”h” betű van!
+    mondat = beolvas()
+    szamlalo = 0
+    for betu in mondat:
+        if betu.lower() == "h":
+            szamlalo +=1
+    print("A szövegben "+str(szamlalo)+" db h betű van")

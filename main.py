@@ -13,5 +13,6 @@ import listak
 # szovegkezeles.tiz()
 # szovegkezeles.tizenegy()
 # szovegkezeles.tizenketto()
+szovegkezeles.tizennegy()
 
-listak.ketto()
+# listak.ketto()
